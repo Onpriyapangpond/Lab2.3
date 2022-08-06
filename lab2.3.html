@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HtML Form Exercise</title>
+
+    <style>
+    table,tr,td{
+        border: 1px solid black;
+    }
+    a{
+        border: 1px solid black;
+        width: 50px;
+    }
+     </style>
+
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="login.html">
+        <table>
+            <tr>
+                <td><label for="usr">Username:</label></td>
+                <td><input type="text" id="usr" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password: </label></td>
+                <td><input type="password" id="pass" required></td>
+            </tr>
+            <tr>
+                <td colspan= "3"><label for="code">กรุณาพิมพ์ตามตัวเลขที่ปรากฎ:<br>1559<br></label>
+                <input type="code" required pattern="1559" > 
+            </td>
+            </tr>
+        </table> <br>
+        <input type="image" width="70px" height="70px" src="login.jpg" alt="Submit">
+    </form>
+</body>
+</html>
